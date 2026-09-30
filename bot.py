@@ -40,8 +40,8 @@ DEFAULT_STORAGE_POOL = os.getenv('DEFAULT_STORAGE_POOL', 'default')
 HOST_MOTD = ''  # remote MOTD scripts are disabled on purpose (security)
 BOT_VERSION = os.getenv('BOT_VERSION', '9.0-NOTSPIDY')
 BOT_DEVELOPER = 'notspidy'
-BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', 'https://i.imgur.com/Tv3clt0.jpeg')
-BOT_ICON_URL = os.getenv('BOT_ICON_URL', 'https://i.imgur.com/Tv3clt0.jpeg')
+BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', 'https://myimgs.org/storage/images/49782/1000079733.png')
+BOT_ICON_URL = os.getenv('BOT_ICON_URL', 'https://myimgs.org/storage/images/49782/1000079733.png')
 
 # VPS Expiration Settings
 DEFAULT_VPS_EXPIRATION_DAYS = int(os.getenv('DEFAULT_VPS_EXPIRATION_DAYS', '30'))
